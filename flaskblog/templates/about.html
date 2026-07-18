@@ -1,4 +1,66 @@
 {% extends "layout.html" %}
 {% block content %}
-    <h1>About Page</h1>
+   <div class="content-section">
+    <h1 class="mb-4">About Flask Blog</h1>
+
+    <p class="lead">
+        Welcome to <strong>Flask Blog</strong>, a simple and modern blogging platform
+        built using the Flask web framework. This project demonstrates how a
+        full-stack web application can be developed with authentication,
+        database integration, and responsive design.
+    </p>
+
+    <hr>
+
+    <h3>✨ Features</h3>
+
+    <ul class="list-group mb-4">
+        <li class="list-group-item">📝 Create, edit and delete blog posts</li>
+        <li class="list-group-item">🔐 Secure user authentication</li>
+        <li class="list-group-item">👤 User profile with profile pictures</li>
+        <li class="list-group-item">📧 Password reset via email</li>
+        <li class="list-group-item">📱 Responsive Bootstrap interface</li>
+        <li class="list-group-item">🗄️ SQLite database using SQLAlchemy</li>
+    </ul>
+
+    <h3>🛠 Technologies Used</h3>
+
+    <div class="row mt-3">
+        <div class="col-md-6">
+            <ul>
+                <li>Python</li>
+                <li>Flask</li>
+                <li>Flask-SQLAlchemy</li>
+                <li>Flask-WTF</li>
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <ul>
+                <li>Flask-Login</li>
+                <li>Flask-Mail</li>
+                <li>Jinja2 Templates</li>
+                <li>Bootstrap 4</li>
+            </ul>
+        </div>
+    </div>
+
+    <hr>
+
+    <h3>🎯 Project Goal</h3>
+
+    <p>
+        The goal of this project is to explore Flask by building a practical
+        blogging application that follows good development practices including
+        modular design, authentication, database management, and clean user
+        interfaces.
+    </p>
+
+    <blockquote class="blockquote text-center mt-4">
+        <p class="mb-0">
+            "Learning is best achieved by building real-world applications."
+        </p>
+    </blockquote>
+
+</div>
 {% endblock content %}
